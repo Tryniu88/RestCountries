@@ -1,0 +1,40 @@
+#body{
+    margin: 0px;
+   
+}
+
+
+#upper{
+display: grid;
+grid-template-columns:25% 75% ;
+grid-template-rows: 100vh;
+
+
+}
+
+#bottom{
+display: grid;
+grid-template-columns:50% ;
+grid-template-rows:0vh ;
+
+}
+
+#item1{
+background-color: bisque;
+}
+
+#item2{
+background-color: burlywood;
+display: flex;
+flex-wrap: wrap;
+overflow-y: auto;
+gap: 8px;
+
+}
+
+
+#all{
+    background-color: grey;
+    border-radius: 15px;
+   
+}
