@@ -37,5 +37,8 @@ gap: 8px;
     background-color: darkolivegreen;
     border-radius: 15px;
     border: 8px solid black;
-   
+}
+
+#flags{
+    border-radius: 15px;
 }

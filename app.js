@@ -30,6 +30,7 @@ const flaga = document.createElement("img")
 flaga.src = json[i].flags.png
 flaga.setAttribute("width" , "100px")
 flaga.setAttribute("height" , "50px")
+flaga.setAttribute("id","flags")
 
 
 div.appendChild(h1)
